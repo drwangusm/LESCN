@@ -1,0 +1,5 @@
+WAID:Https://github.com/xiaohuicui/WAID/tree/main
+
+AOD:https://universe.roboflow.com/animal-detection-yvpsn/animal-object-detection-gbwme/dataset/2
+
+AerialCows: Https://universe.roboflow.com/roboflow-100/aerial-cows/dataset/2
