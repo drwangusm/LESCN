@@ -1,2 +1,2 @@
 # LESCN
-A lightweight and effective Shared Convolutional Network for Livestock Object detection in Unmanned Aerial Vehicle Imagery
+Toward Robust and Edge Device Deployment Livestock Object Detection in UAV Scenarios via a Lightweig
