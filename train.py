@@ -9,7 +9,7 @@ from ultralytics import YOLO
 if __name__ == '__main__':
     for yaml_name in ['yolo11-LSCD','yolo11-starnet','yolo11-C3k2-Star','yolo11-starnet-C3k2-Star-LSCD','yolo11','yolo11-starnet-C3k2-Star-CAA-LSCD','yolo11-C3k2-Star-CAA']:
         model = YOLO(f'./models/innovations/{yaml_name}.yaml')
-        model.train(data='xxx/data.yaml',
+        model.train(data='/demo/datasets/WAID/data.yaml',
                 cache=False,
                 imgsz=640,
                 epochs=300,
@@ -22,6 +22,6 @@ if __name__ == '__main__':
                 # resume=True, # 断点续训,YOLO初始化时选择last.pt
                 amp=False, # close amp 
                 # fraction=0.2,
-                project='runs/',
+                project='runs/WAID',
                 name=yaml_name,
                 )
